@@ -1,5 +1,5 @@
 # VarApp
-MPG modeling and reporting web application
+Modeling and reporting web application
 
 App is hosted on Amazon Web Services (AWS) Beanstalk. Beanstalk auto generates EC2 instances to run the app using custom designed AMI. A custom AMI was built for this app and it runs Tomcat 7 and has Matlab Compiler Runtime (MCR) installed. 
 MCR is needed to run the forecast model since the model is built in Matlab. Matlab SDK allows calling various Matlab functions that are needed to run the model directly from java. 
